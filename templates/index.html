@@ -1,0 +1,95 @@
+index.html 
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Leaf Disease Detection</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         MAIN CONTAINER
+         ================================================== -->
+
+    <div class="container">
+
+
+        <!-- Website heading -->
+
+        <h1>
+            🌿 Leaf Disease Detection
+        </h1>
+
+
+        <p class="subtitle">
+            Upload a leaf image to detect possible disease
+        </p>
+
+
+        <!-- ==================================================
+             UPLOAD FORM
+             ================================================== -->
+
+        <form action="/predict"
+              method="POST"
+              enctype="multipart/form-data">
+
+
+            <!-- File input -->
+
+            <label for="image"
+                   class="upload-box">
+
+                <span>
+                    📷
+                </span>
+
+                <p>
+                    Choose a leaf image
+                </p>
+
+                <input
+                    type="file"
+                    id="image"
+                    name="image"
+                    accept="image/*"
+                    required
+                >
+
+            </label>
+
+
+            <!-- Predict button -->
+
+            <button type="submit">
+
+                🔍 Predict Disease
+
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+
+</body>
+
+</html>

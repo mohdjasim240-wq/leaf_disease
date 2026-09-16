@@ -1,0 +1,215 @@
+
+
+
+/* ============================================================
+   GENERAL PAGE
+   ============================================================ */
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f8f3;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* ============================================================
+   MAIN CONTAINER
+   ============================================================ */
+
+.container {
+
+    width: 90%;
+
+    max-width: 650px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ============================================================
+   HEADING
+   ============================================================ */
+
+h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* ============================================================
+   SUBTITLE
+   ============================================================ */
+
+.subtitle {
+
+    color: #666;
+
+    font-size: 17px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ============================================================
+   UPLOAD BOX
+   ============================================================ */
+
+.upload-box {
+
+    display: block;
+
+    border: 2px dashed #777;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    margin-bottom: 25px;
+}
+
+
+.upload-box span {
+
+    font-size: 50px;
+
+}
+
+
+.upload-box p {
+
+    font-size: 18px;
+
+}
+
+
+.upload-box input {
+
+    margin-top: 15px;
+}
+
+
+/* ============================================================
+   BUTTON
+   ============================================================ */
+
+button {
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    transform: scale(1.03);
+}
+
+
+/* ============================================================
+   IMAGE
+   ============================================================ */
+
+.image-container {
+
+    margin: 20px;
+}
+
+
+.leaf-image {
+
+    max-width: 100%;
+
+    max-height: 350px;
+
+    border-radius: 15px;
+}
+
+
+/* ============================================================
+   RESULT CARD
+   ============================================================ */
+
+.result-card {
+
+    margin-top: 25px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background: #f3f3f3;
+}
+
+
+.result-card h2 {
+
+    margin-bottom: 10px;
+}
+
+
+.result-card h3 {
+
+    font-size: 24px;
+
+    margin: 10px 0;
+}
+
+
+.result-card p {
+
+    font-size: 18px;
+}
+
+
+/* ============================================================
+   BACK BUTTON
+   ============================================================ */
+
+.back-button {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+}
